@@ -44,9 +44,27 @@ footer a{
 
     color:white;
     z-index: 1;
+    
     border-radius: 5%;
 }
 
 .main_nuestra_historia{
+    border-radius: 0% 0% 5% 5%;
+}
+
+.img_quienes_somos{
     border-radius: 5%;
+}
+
+.img_nuestra_mision{
+    border-radius: 5%;
+}
+
+.badge:hover{
+    border: solid 1px black;
+}
+
+.div_audit{
+    color: white;
+    
 }
