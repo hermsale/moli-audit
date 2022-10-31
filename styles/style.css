@@ -68,3 +68,30 @@ footer a{
     color: white;
     
 }
+
+/* ///////////////// NUESTROS SERVICIOS */
+
+.header_servicios{
+    position:relative;
+}
+
+#servicios .overlay_servicios{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+
+    color:white;
+    z-index: 1;
+}
+
+.p_service{
+    color: white;
+}
+
+.div_service .badge:hover{
+    border-color:red;
+}
