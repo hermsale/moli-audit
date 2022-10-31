@@ -1,0 +1,52 @@
+:root{
+    --main-primary-background: #F6F6C9;
+    --main-secondary-background: #BAD1C2;
+    --color-primary-text: #4FA095;
+    --color-secondary-text: #153462;
+}
+
+.navbar_main img{
+    width: 100px;
+}
+
+body {
+    background-color: var(--main-primary-background);
+}
+
+footer img{
+    height: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--color-primary-text);
+}
+
+/* seccion nuestra historia */
+
+.header_nuestra_historia{
+    position: relative;
+}
+
+.header_nuestra_historia img{
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+.header_nuestra_historia .overlay_nuestra_historia{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    color:white;
+    z-index: 1;
+    border-radius: 5%;
+}
+
+.main_nuestra_historia{
+    border-radius: 5%;
+}
