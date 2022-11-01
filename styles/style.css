@@ -5,6 +5,19 @@
     --color-secondary-text: #153462;
 }
 
+
+.section_acerca_de_nosotros .header_nuestra_historia img{
+    
+        max-height: 70vh;
+        /* esta propiedad  estira la imagen y hace un pequeño zoom*/
+        object-fit: cover;
+    
+        /* filtro para darle escala de grises a la imagen */
+        filter: grayscale(70%);
+
+}
+
+
 .navbar_main img{
     width: 100px;
 }
@@ -70,6 +83,15 @@ footer a{
 }
 
 /* ///////////////// NUESTROS SERVICIOS */
+
+/* nuestros servicios header */
+.header_servicios_img img{
+    min-height: 30vh;
+    /* min-width: 50vw; */
+    object-fit: cover;
+ 
+ }
+ 
 
 .header_servicios{
     position:relative;
